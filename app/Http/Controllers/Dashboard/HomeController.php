@@ -11,5 +11,10 @@ class HomeController extends Controller
 
         return view('dashboard.dashboarad_utama');
     }
+
+    public function About(){
+        return view('dashboard.About');
+    }
     
+
 }

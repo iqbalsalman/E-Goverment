@@ -10,10 +10,13 @@ class HomeControllers extends Controller
 {
     public function index(){
 
-        return view('Home.index');
+        return view('dashboard.dashboarad_utama');
 
     }
+
     public function about(){
-        return view('Home.About');
+        return view('dashboard.about');
     }
+
+   
 }
