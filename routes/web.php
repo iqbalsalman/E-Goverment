@@ -11,3 +11,5 @@
 |
 */
 Route::get('/','Dashboard\HomeController@index');
+Route::get('/about','Dashboard\HomeController@about');
+Route::get('/login','Akun\UsersController@index');
