@@ -3,13 +3,13 @@
 
     <!-- Basic -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
      <!-- Site Metas -->
-    <title>E - Aset Dinas Pendidikan Kabupaten Bandung</title>  
+    <title>E - Aset Dinas Pendidikan Kabupaten Bandung</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,22 +29,16 @@
     <link href="{{asset('Home/css/responsive.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{{asset('Home/css/custom.css')}}" rel="stylesheet">
-    
+
     <!-- Font Awesome css-->
     <link href="{{asset('Home/css/font-awesome.min.css')}}" rel="stylesheet">
     <!-- Modernizer for Portfolio -->
     <script src="{{asset('Home/js/modernizer.js')}}"></script>
 
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
-<body class="host_version"> 
+<body class="host_version">
 
-	
+
     <!-- LOADER -->
 	<div id="preloader">
 		<div class="loader-container">
@@ -53,8 +47,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- END LOADER -->	
-	
+	<!-- END LOADER -->
+
 	<!-- Start header -->
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -69,39 +63,19 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item active"><a class="nav-link" href="{{URL('/')}}">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="{{URL('/about')}}">About Us</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Course </a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="course-grid-2.html">Course Grid 2 </a>
-								<a class="dropdown-item" href="course-grid-3.html">Course Grid 3 </a>
-								<a class="dropdown-item" href="course-grid-4.html">Course Grid 4 </a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog </a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="blog.html">Blog </a>
-								<a class="dropdown-item" href="blog-single.html">Blog single </a>
-							</div>
-						</li>
-						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
-						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Projeck</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="{{URL('/login')}}">Login</a></li>
 					</ul>
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
-                    </ul>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- End header -->
-	
-    @yield('contens')   
-
-
+    @yield('contens')
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -110,7 +84,7 @@
                         <div class="widget-title">
                             <h3>About US</h3>
                         </div>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>   
+                        <p>Kabupaten Bandung adalah salah satu kabupaten yang ada di indonesia lahir melalui piagam Sultan Agung Mataram, yaitu pada tanggal 9 bulan Muharram tahun Alif</p>
 						<div class="footer-right">
 							<ul class="footer-links-soi">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -119,7 +93,7 @@
 								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 							</ul><!-- end links -->
-						</div>						
+						</div>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
@@ -130,14 +104,13 @@
                         </div>
                         <ul class="footer-links">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pricing</a></li>
-							<li><a href="#">About</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Projeck</a></li>
 							<li><a href="#">Contact</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
-				
+
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
@@ -145,14 +118,13 @@
                         </div>
 
                         <ul class="footer-links">
-                            <li><a href="mailto:#">info@yoursite.com</a></li>
-                            <li><a href="#">www.yoursite.com</a></li>
-                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
-                            <li>+61 3 8376 6284</li>
+                            <li><a href="mailto:#">info@bandungkab.go.id</a></li>
+                            <li><a href="#">http://www.bandungkab.go.id</a></li>
+                            <li>022-5891691/1183 </li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
-				
+
             </div><!-- end row -->
         </div><!-- end container -->
     </footer><!-- end footer -->
@@ -160,8 +132,8 @@
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
-                <div class="footer-center">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SmartEDU</a> Design By : <a href="https://html.design/">html design</a></p>
+                <div class="footer-center">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">E - Aset Dinas Pendidikan Kabupaten Bandung</a> Design By : <a href="https://html.design/">html design</a></p>
                 </div>
             </div>
         </div><!-- end container -->

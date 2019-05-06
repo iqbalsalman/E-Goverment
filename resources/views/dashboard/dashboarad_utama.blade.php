@@ -1,4 +1,4 @@
-@extends('layout/layout_header')
+@extends('layout/layout2')
 @section('contens')
 <div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
 		<!-- Indicators -->

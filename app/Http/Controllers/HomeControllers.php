@@ -2,21 +2,28 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Http\Requests;
-use Illuminate\Support\Facades\Redirect; 
-
 class HomeControllers extends Controller
 {
-    public function index(){
+    public function index()
+    {
 
         return view('dashboard.dashboarad_utama');
 
     }
 
-    public function about(){
+    public function about()
+    {
         return view('dashboard.about');
     }
 
-   
+    public function Contack()
+    {
+
+        return view('dashboard.contack.name');
+    }
+
+    public function projeck()
+    {
+        return view('dashboard.projeck');
+    }
 }

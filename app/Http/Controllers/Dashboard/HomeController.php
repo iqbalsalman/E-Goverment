@@ -2,19 +2,29 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
-    public function index(){
+    public function index()
+    {
 
         return view('dashboard.dashboarad_utama');
     }
 
-    public function About(){
+    public function About()
+    {
         return view('dashboard.About');
     }
-    
+    public function Contack()
+    {
+
+        return view('dashboard.contack.name');
+    }
+
+    public function projeck()
+    {
+        return view('dashboard.projeck');
+    }
 
 }
