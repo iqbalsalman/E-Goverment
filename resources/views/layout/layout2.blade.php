@@ -65,7 +65,6 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href="{{URL('/')}}">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="{{URL('/about')}}">About Us</a></li>
-						<li class="nav-item dropdown">
 						<li class="nav-item"><a class="nav-link" href="teachers.html">Projeck</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						<li class="nav-item"><a class="nav-link" href="{{URL('/login')}}">Login</a></li>
@@ -84,7 +83,7 @@
                         <div class="widget-title">
                             <h3>About US</h3>
                         </div>
-                        <p>Kabupaten Bandung adalah salah satu kabupaten yang ada di indonesia lahir melalui piagam Sultan Agung Mataram, yaitu pada tanggal 9 bulan Muharram tahun Alif</p>
+                        <p>Kabupaten Bandung adalah salah satu kabupaten yang ada di indonesia lahir melalui piagam Sultan Agung Mataram, yaitu pada tanggal 9 bulan Muharram tahun Alif.</p>
 						<div class="footer-right">
 							<ul class="footer-links-soi">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>

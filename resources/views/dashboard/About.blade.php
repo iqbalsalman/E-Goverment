@@ -17,7 +17,7 @@
 				
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="post-media wow fadeIn">
-                        <img src="{{URL::to('Home/images/about_02.jpg')}}" alt="" class="img-fluid img-rounded">
+                        <img src="{{URL::to('Home/images/peta.jpg')}}" alt="" class="img-fluid img-rounded">
                     </div><!-- end media -->
                 </div><!-- end col -->
 			</div>
