@@ -3,6 +3,13 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Session;
+use Carbon\Carbon;
+use App\Http\Requests;
+use Illuminate\Support\Facades\Redirect;
+session_start();
 
 class HomeController extends Controller
 {
@@ -19,7 +26,7 @@ class HomeController extends Controller
     public function Contack()
     {
 
-        return view('dashboard.contack.name');
+        return view('dashboard.kontak');
     }
 
     public function projeck()
@@ -27,4 +34,14 @@ class HomeController extends Controller
         return view('dashboard.projeck');
     }
 
+    public function dashboard()
+    {
+        return view('dashboard.home');
+    }
+    public function viewAsset()
+    {
+        return view('dashboard.ViewAsset');
+    }
+   
+  
 }

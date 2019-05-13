@@ -13679,7 +13679,7 @@ input:focus {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 63px);
-  background: #ffffff;
+  background: #dcf8c6;
   font-family: "Poppins", sans-serif;
   padding: 0;
   width: 255px;
@@ -13828,7 +13828,7 @@ input:focus {
   .sidebar-dark .sidebar .nav .nav-item.nav-profile .profile-name .designation {
     color: #8d9498; }
   .sidebar-dark .sidebar .nav .nav-item.nav-profile .notification-panel:before {
-    background: #404852; }
+    background: #FFFFFF; }
   .sidebar-dark .sidebar .nav .nav-item.nav-profile .notification-panel > span {
     background: #1f2537; }
     .sidebar-dark .sidebar .nav .nav-item.nav-profile .notification-panel > span i {
@@ -13880,11 +13880,11 @@ input:focus {
     -webkit-transition: width 0.25s ease, background 0.25s ease;
     -moz-transition: width 0.25s ease, background 0.25s ease;
     -ms-transition: width 0.25s ease, background 0.25s ease;
-    background: #ffffff;
+    background: #dcf8c6;
     width: 255px;
     height: 63px; }
     .sidebar-dark .navbar.default-layout .navbar-brand-wrapper {
-      background: #161a27; }
+      background: #dcf8c6; }
     .navbar.default-layout .navbar-brand-wrapper .navbar-brand {
       color: #ffffff;
       font-size: 1.5rem;
