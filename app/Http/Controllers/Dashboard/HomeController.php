@@ -16,32 +16,22 @@ class HomeController extends Controller
     public function index()
     {
 
-        return view('dashboard.dashboarad_utama');
+        return view('Home.dashboarad_utama');
     }
 
     public function About()
     {
-        return view('dashboard.About');
+        return view('Home.About');
     }
     public function Contack()
     {
 
-        return view('dashboard.kontak');
+        return view('Home.kontak');
     }
 
     public function projeck()
     {
-        return view('dashboard.projeck');
+        return view('Home.projeck');
     }
-
-    public function dashboard()
-    {
-        return view('dashboard.home');
-    }
-    public function viewAsset()
-    {
-        return view('dashboard.ViewAsset');
-    }
-   
   
 }

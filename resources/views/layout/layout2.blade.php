@@ -66,7 +66,7 @@
 						<li class="nav-item active"><a class="nav-link" href="{{URL('/')}}">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="{{URL('/about')}}">About Us</a></li>
 						<li class="nav-item"><a class="nav-link" href="teachers.html">Projeck</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{URL('/contact')}}">Contact</a></li>
 						<li class="nav-item"><a class="nav-link" href="{{URL('/login')}}">Login</a></li>
 					</ul>
 				</div>

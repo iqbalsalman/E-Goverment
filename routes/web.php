@@ -23,3 +23,5 @@ Route::post('/insert','Dashboard\AsetController@save_aset');
 Route::get('/DataAset','Dashboard\AsetController@aset_all');
 Route::get('/aset','Dashboard\AsetController@index');
 Route::get('/edit/{id}','Dashboard\AsetController@Edit');
+Route::post('/update/{id}','Dashboard\AsetController@update');
+Route::get('/delete/{id}','Dashboard\AsetController@delete');

@@ -3,13 +3,16 @@
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">Bordered table</h4>
-        <p class="card-description">
-          Add class
-          <code>.table-bordered</code>
-        </p>
+        <h4 class="card-title">Data Aset</h4>
         <div class="table-responsive">
           <table class="table table-bordered">
+              @if(Session::get('message'))
+              <div class="alert alert-success">
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                      <strong>Success!</strong>
+                  {{ Session::get('message') }}</p>
+              {{Session::put('message',null)}}
+              @endif
             <thead>
               <tr>
                 <th>No </th>
@@ -33,7 +36,7 @@
                                 $item->id)}}">
                                     <i class="fa fa-expeditedssl"></i>  
                                 </a>
-                                <a class="btn btn-danger"  href="{{URL::to('/delete_product/'.
+                                <a class="btn btn-danger"  href="{{URL::to('/delete/'.
                                 $item->id)}}" id="delete"> 
                                     <i class="fa fa-trash"></i> 
                                 </a>
